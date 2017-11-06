@@ -1,0 +1,73 @@
+RESULTS FOR GRAPH G1 :
+
+TOP 10 PAGE RANKS FOR G1 :
+
+1.  'International_Standard_Book_Number'   :  0.049468432785299256
+2.  'Digital_object_identifier' 		   :  0.040588929132645696
+3.  'International_Standard_Serial_Number' :  0.032267888477997886
+4.  'National_Diet_Library' 			   :  0.022576255475452698
+5.  'Bibcode' 							   :  0.018906872621370627
+6.  'PubMed_Identifier' 				   :  0.015553175728001512
+7.  'World_War_II' 						   :  0.015283502978421251
+8.  'Canada' 							   :  0.01493920806950189
+9.  'Japan' 							   :  0.0135606524982136
+10. 'OCLC' 								   :  0.01345687329869052
+
+
+TOP 10 IN LINK COUNTS FOR G1:
+
+1.  'International_Standard_Book_Number'   				:  436
+2.  'Digital_object_identifier' 		   				:  348
+3.  'Tropical_cyclone' 					   				:  319
+4.  'Bibcode' 							   				:  239
+5.  'Wayback_Machine' 					   				:  229
+6.  'National_Oceanic_and_Atmospheric_Administration'   :  195
+7.  'Pascal_(unit)' 									:  187
+8.  'Extratropical_cyclone' 							:  186
+9.  'Bar_(unit)' 										:  182
+10. 'NASA' 												:  181
+
+----------------------------------------------------------------------------------------------
+
+RESULTS FOR GRAPH G2 :
+
+TOP 10 PAGE RANKS FOR G2 :
+
+1.  'International_Standard_Book_Number'  	:  0.03541375519108355
+2.  'Digital_object_identifier' 		  	:  0.018794476465474594
+3.  'Canada' 							  	:  0.012158357363939247
+4.  'DMOZ' 								  	:  0.009900452312328278
+5.  'London_Underground' 				    :  0.00870069082655459
+6.  'European_Union' 						:  0.008510176566400896
+7.  'World_War_II' 							:  0.008180493604730308
+8.  'Amazon_Standard_Identification_Number' :  0.008115332507790072
+9.  'Transport_for_London' 					:  0.007817541562316906
+10. 'PubMed_Central' 						:  0.0073520860076862595
+
+
+TOP 10 IN LINK COUNTS FOR G2 :
+
+1.  London_Underground' 				 :  723
+2.  Transport_for_London' 				 :  628 
+3.  International_Standard_Book_Number'  :  547
+4.  National_Rail' 						 :  542
+5.  Docklands_Light_Railway' 			 :  469
+6.  Crossrail' 							 :  412
+7.  List_of_London_Underground_stations' :  385
+8.  Finsbury_Park_station' 				 :  382
+9.  Richmond_(London)_station' 			 :  374
+10. Liverpool_Street_station' 			 :  360
+
+----------------------------------------------------------------------------------------------
+
+HOW PAGE RANK ALGORITHM WORKS : 
+
+If a page P has an inlink from page Q, and given page Q has high page rank score, then the page rank of page P will be increased compared to a page with less page rank score. Also, if a page R has an inlink from page S and if S has more number of outlinks, then the page rank is not incremented by much. It can also be understood from the algorithm that, if there are more outlinks for a page, then at the end of the convergence, it has a relatively lower page rank score.
+
+----------------------------------------------------------------------------------------------
+
+INFERENCE :
+
+It can be seen in the results presented above for graph G1 that, although the page 'Tropical_cyclone' ranks third in terms of inlink counts, it is not on the top 10 pages according to page rank score. This might be because, this page has got high number of outlinks leading to a decreased page rank score. On the other hand, the page 'International_Standard_Serial_Number' ranks third according to page rank score although it is not in the top 10 pages listed based on inlinks count. This might be because, even though it has small number inlinks, the inlinks might be from pages with high page rank score.
+
+Similarly, from the results of graph G2, it can be seen that, even though 'Digital_object_identifier' ranks 2nd according to page rank score, it is not listed under top 10 based on inlinks count. This might be because, it has lesser number of outlinks and hence the page rank score might not have been reduced.
